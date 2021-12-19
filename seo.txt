@@ -1,0 +1,105 @@
+Requirements:
+    As a product owner, I shall see optimizing our website in images, videos and url.
+
+How Google Search works?
+
+    1. CRAWLING
+        Google finds a new or updated webpages by either by
+            a. following a link from a known page to a new page, or
+            b. when a site owner submits a list of pages (a sitemap) for Google to crawl.
+        
+        Once Google discovers a page URL, it visits, or crawls, the page to find out what's on it. 
+        Google renders the page and analyzes both the text and non-text content and overall visual layout 
+        to decide where it should appear in Search results. To improve the site crawling
+            a. Make sure that Google can able to reach the pages on site and ablt to understand all the 
+                images and other elements of the page correctly.
+            b. If a page is created or updated, submit an individual URL to Google. For this use sitemaps.
+            c. If you ask Google to crawl only one page, make it your homepage.
+            d. Get the page linked to by another page that Google already knows about.
+    
+    2. INDEXING
+        After a page is discovered, Google tries to understand what the page is about and stores in the 
+        Google index, a huge database. This process is called indexing.
+        
+        To improve indexing.
+            a. Create short, meaningful page titles
+            b. Use page headings that convey the subject of the page
+            c. Use text rather than images to convey content. At minimum , annotate videos and images with 
+                alt text and other attributes as appropriate
+    
+    3. SERVING / RANKING
+        Google tries to find the most relevant answer from its index based on many factors.
+            a. high quality answers
+            b. best user experience
+            c. user's location
+            d. language
+            e. device
+        
+        To improve serving and RANKING
+            a. make pages fast to load, and mobile-friendly
+            b. keep the page upto date
+            c. provide user experience
+
+How search performance is measured?
+    Impressions: How many times the site has been seen by someone searching on Google.
+    Clicks: How many times someone has clicked a link in the site in Google results.
+    Average position: The average position of the site in search results.
+
+
+BEST PRACTICES:
+    a. Help Google find the content
+        - Tell Google which pages to crawl and which pages not to crawl
+        - For non-sensitive information, block the unwanted crawling by using robots.txt
+        - For sensitive information, use more secure methods
+
+    b. Help Google understand the content
+        - Let Google see the page the same way a user does
+            For optimal rendering and indexing, always allow crawler access to the Js, 
+                CSS, and image files
+        - Create unique, accurate page titles
+        - Create good titles and snippets in search results
+            Use <title> and <meta name="description" content=""> tags
+        - Accurately describe the page's content
+        - Create unique title for each page
+        - Add structured data markup (rich results)
+
+    c. Organize site hierarchy
+        - Use breadcrumb lists
+            Eg. HostName > Articles > Cloud Engineering
+                Blogs | Cloud Engineering
+        - Show usefull 404 pages
+        - Use Simple URLs to convey the information
+
+    d. Optimize the contents
+        - Know what readers want
+            Eg. FIFA and football playoffs
+        - Organize the topics clearly
+        - Optimize the contents for users, not search engines
+        - Contents should be factually accurate, clearly written, and comprehensive.
+    
+    e. Avoid Distracting advertisements
+
+    f. Use links wisely
+        - Write good link text
+        - Format links so they are easy to spot
+
+    g. Optimize images
+        - Use HTML image elements i.e., <img> or <picture> elements
+        - Avoid using CSS to display image
+        - Use alt attribute for providing image descriptions
+        - Help search engines to find images by using image sitemaps
+        - Use standard image formats
+
+    h. Make site mobile-friendly
+        - Responsive web design
+        - Dynamic serving
+        - Separate URLs
+        - Provide full functionlaity on all devices
+
+    i. Promote the website
+        - Make sure that the website URL is listed in business cards
+        - Use newsletters
+
+    j. After the crawling and indexing improvements, monitor the traffic coming to 
+        the site.
+        - Discover the most popular content on the site
